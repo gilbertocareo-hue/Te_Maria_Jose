@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Frases para Ti</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffe6f0, #e6f7ff);
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .frase {
+      font-size: 1.8em;
+      margin-top: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: inline-block;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 1em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌸 Una Frase Para Ti 🌸</h1>
+  <div class="frase" id="frase"></div>
+  <div class="footer">Con amor, de Gilberto 💌</div>
+
+  <script>
+    const frases = [
+      "Eres mi razón de sonreír cada día 💖",
+      "Tu amor me da fuerza para seguir adelante 🌟",
+      "Cada momento contigo es un regalo 🎁",
+      "Tu sonrisa ilumina mi mundo ✨",
+      "Gracias por existir y por amarme 🫶",
+      "Eres más fuerte de lo que crees y más amada de lo que imaginas 🌷",
+      "Contigo aprendí que el amor verdadero sí existe 💞",
+      "Tu presencia convierte lo ordinario en mágico 🌈",
+      "Hoy es un buen día para recordarte lo mucho que te amo 💕",
+      "Siempre estaré aquí para ti, sin importar qué ❤",
+      "No importa cuán difícil sea el día, tu amor siempre lo hace más fácil 🌤",
+      "Eres mi lugar favorito, incluso cuando el mundo se pone de cabeza 🌍❤",
+      "Cada paso que doy tiene más sentido desde que caminas conmigo 🚶‍♀🚶‍♂",
+      "Tu ternura tiene el poder de sanar lo que ni el tiempo logra curar 💫",
+      "Cuando dudas de ti, recuerda que yo creo en ti con todo mi corazón 💪💕",
+      "Tu amor es mi motor, mi paz y mi impulso para seguir soñando 🚗💖",
+      "Eres la melodía que convierte mi caos en armonía 🎶🌸",
+      "Contigo aprendí que el amor no se dice, se demuestra cada día 🫶",
+      "Si el mundo se apaga, tú eres mi luz constante ✨",
+      "Tu sonrisa tiene el poder de cambiar mi clima interior ☀🌧",
+      "Tu amor me enseña que lo imposible solo tarda un poco más 💪❤",
+      "Eres mi calma en medio del caos, mi refugio seguro 🛡🌸",
+      "Cada día contigo es una nueva razón para creer en la magia ✨",
+      "Tu mirada tiene el poder de reiniciar mi mundo 🌍💫",
+      "Cuando pienso en ti, todo lo demás se vuelve pequeño 💖",
+      "Gracias por ser mi compañera en esta aventura llamada vida 🚀💕",
+      "Tu ternura transforma mis días grises en arcoíris 🌈🫶",
+      "Si pudiera regalarte algo, sería la capacidad de verte como yo te veo: increíble 💎",
+      "Contigo aprendí que el amor no se busca, se encuentra sin querer 💘",
+      "Tu voz es mi canción favorita, incluso en silencio 🎶💞",
+      "Cada vez que sonríes, el universo se acomoda un poquito mejor 🌠",
+      "Tu existencia es mi motivación más poderosa para ser mejor cada día 🌟",
+      "Amarte no es una elección, es mi naturaleza 💗",
+      "Tu presencia convierte lo cotidiano en extraordinario 🪄",
+      "Si el amor tuviera forma, tendría tu nombre grabado 💌"
+    ];
+
+    const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
+    document.getElementById("frase").textContent = fraseAleatoria;
+  </script>
+</body>
+</html>
